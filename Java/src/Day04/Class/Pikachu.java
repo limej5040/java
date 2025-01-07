@@ -51,4 +51,16 @@ public class Pikachu {
 	public String bAttack() {
 		return "전광석화" ;
 	}
+	
+	/*
+	 * 	toString()
+	 * 	:반환하는 문자을 객체의 출력으로 대체해주는 메소드 
+	 */
+
+	@Override
+	public String toString() {
+		return "Pikachu [energy=" + energy + ", type=" + type + "]";
+	}
+	
+	
 }
