@@ -16,6 +16,9 @@ import java.util.Scanner;
 
 		// 생성자
 		public Book() {
+			// this.title = "제목없음";
+			// this.author = "작자미상";
+			this("제목없음", "작자미상");
 			
 		}
 		public Book(String title, String author) {
