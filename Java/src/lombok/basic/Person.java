@@ -1,5 +1,7 @@
 package lombok.basic;
 
+import lombok.Data;
+
 // @어노테이션
 // @NoArgsConstructor			: 기본 생성자
 // @AllArugsConstructor			: 모든 매개변수 생성자 
@@ -13,7 +15,7 @@ package lombok.basic;
 //								  @RequiredArgsConstructor
 //								  @EqualsHashCode 
 
-
+@Data
 public class Person {
 	
 	private String name;
